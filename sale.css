@@ -1,0 +1,38 @@
+body{
+  background-color: antiquewhite;
+  width: 99%;
+ }
+
+#storeTable {
+  float: left;
+  margin: 3%;
+  height: 200px;
+  width: 980px;
+}
+table{
+  border: 2px solid red;
+}
+table tr td {
+  border: 1px solid black;
+}
+ #form {
+  float: left;
+  margin: 2%;
+  height: 200px;
+  width: 90%;
+  background-color: blue
+ }
+h1 {
+  color: rgb(134, 106, 132)
+}
+ h2{
+   color: rgb(75, 53, 80);
+   font-family: 
+ }
+ 
+ label{
+  color: red;
+  background-color: rgb(35, 126, 126);
+  border: 3px double red;
+  margin: ;  
+}

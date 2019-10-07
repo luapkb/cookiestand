@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="sale.css">
+</head>
+
+<body>
+    <div>
+        <h1>Store sales by Hour. Totals for Store and Hour at end of row and column. 
+        </h1>
+        </div>
+    <section id="storeTable">
+        <table id="storeData"></table>
+        <form id="storeEssentials">
+            
+        </form>
+    </section>
+    <section id="form">
+        <form id="form-addStore">
+            <fieldset>
+                <h2>Create a new store:</h2>
+                <label for="minGuest">Minimum Customer:</label>
+                <input id="minGuest" name="minGuest" type="number" required placeholder="minimum customer" /></br>
+
+                <label for="maxiGuest">Maximum Customer:</label>
+                <input id="maxiGuest" name="maxGuest" type="number" required placeholder="maximum customer" /><br />
+
+                <label for="unitsPerPerson">Cookies perPerson:</label>
+                <input id="unitsPerPerson" name="unitsPerPerson" type="number" required placeholder="Cookies perPerson" /></br>
+
+                <label for="loc_name">Location Name:</label>
+                <input id="loc_name" name="loc_name" type="text" required placeholder="location name" /><br />
+
+                <button type="submit" name="submit" value="submit" id="submitCookieStore">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+    <!-- <script src="app.js"></script> -->
+    <script src="constuctor.js"></script>
+</body>
+
+</html>
